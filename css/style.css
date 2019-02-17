@@ -1,0 +1,329 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-inverse .navbar-nav>li>a {
+  line-height: 1.01;
+  color: #fff;
+  margin-left: 15px;
+  opacity: 0.5;
+}
+.navbar {
+  border-radius: 0;
+}
+.btn.btn-info.btn-signup {
+  background: transparent;
+  padding: 5px 15px;
+  margin-top: 10px;
+  border: 1px solid #979797;    
+  margin-right: -45px;
+  margin-left: 35px;
+}
+.btn.btn-info.btn-signup:hover {
+  background: #ccc;
+  border-color: #ccc;
+  color: #fff;
+}
+.affix {
+  width: 100%;
+  transition: ease 0.5s;
+  background: #323054 !important;
+  z-index: 1;
+}
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 10px;
+}
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:hover, 
+.navbar-inverse .navbar-nav>.active>a:focus {
+  background: transparent;
+  opacity: 1;
+}
+.navbar-inverse .navbar-nav>li>a:hover, 
+.navbar-inverse .navbar-nav>li>a:focus {
+  opacity: 1;
+}
+.navbar-right{
+	margin-right: 50px;
+	margin-top: 10px;
+}
+.navbar{
+	height: 75px;
+}
+#efficient {
+  background: url(../images/background.png) center rgba(44, 48, 48, 1);
+  background-size: cover;
+    /*opacity: 0.23;*/
+}
+.enabling {
+  width: 40%;
+  letter-spacing: -1.8px;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.05;
+}
+.investment {
+  width: 40%;
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.7px;
+}
+#email-newsletter {
+    width: 235px;
+    height: 40px;
+    border: 0;
+    font-size: 12px;
+  border-radius: 2.2px;
+  box-shadow: 0 0 5px 0 rgba(177, 177, 177, 0.5);
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+#subscribe {
+    width: 104px;
+    height: 40px;
+    border: 0;
+    font-size: 12px;
+    margin-left: -5px;
+    margin-top: 1px;
+    color: #fff;
+    border-radius: 2.9px;
+  box-shadow: 0 1px 5px 0 #254e2d;
+  background-color: #2aaa41;
+}
+.about{
+  background-color: #f8fafb;
+  padding: 40px 0;
+}
+.passion,
+.investment-shop p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #20294e;
+}
+.utilize {
+  width: 42%;
+  height: 90px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.58;
+  letter-spacing: normal;
+  color: #20294e;
+  opacity: 0.48;
+}
+.box-row {
+  margin-bottom: 40px;
+}
+.box{
+  width: 234px;
+  height: 250px;
+  border-radius: 3px;
+  background: #fff;
+  margin: 0 auto;
+  padding: 20px 15px;
+  box-shadow: 0 13px 21px 0 #f8f8f8;
+}
+.box img {
+	margin-left: -2px;
+}
+.trusted {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #20294e;
+}
+.debt {
+  margin-top: 15px;
+  font-size: 12px;
+  line-height: 1.67;
+  color: #6e707b;
+}
+.tomato-div {
+  width: 259px;
+  margin: auto;
+  border-radius: 3.5px;
+  box-shadow: 0 3px 3px 0 rgba(39, 46, 86, 0.03);
+}
+.investment-shop {
+  background: url(../images/investment.png) center rgba(44, 48, 48, 1);
+  background-size: cover;
+  height: 290px;
+  padding: 40px;
+}
+.investment-shop p {
+  color: #fff;
+  padding-bottom: 40px;
+}
+.investment-div {
+  padding: 20px;
+  border-top: none;
+}
+.investment-div img {
+  position: relative;
+}
+.investment-div h5 {
+  font-size: 22.8px;
+  font-weight: 500;
+  color: #484f5f;
+  margin-bottom: 5px;
+}
+.investment-div h5 span.price {
+  color: #2aaa41;
+}
+.investment-div p {
+  font-size: 15.2px;
+  line-height: 1.14;
+  color: #484f5f;
+}
+.investment-div p span.percentage {
+  font-weight: bold;
+  color: #2aaa41;
+}
+.investment-div .insurance {
+  margin-top: 2px;
+  opacity: 0.28;
+  font-size: 11.4px;
+  font-weight: 500;
+  color: #3484fa;
+}
+.invest-row {
+  margin-top: 25px;
+}
+.btn.btn-invest {
+  border-radius: 2.3px;
+  background-color: #2aaa41;
+  border-color: #2aaa41;
+  font-size: 10px;
+  font-weight: bold;
+  color: #fff;
+  padding: 6px 20px;
+}
+.utilize.love {
+  width: 24%;
+}
+/*.tomato {
+  position: absolute;
+  top: 0;
+  left: 35px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+}*/
+
+.ourfees {
+  background-color: #fff;
+  padding: 50px 0;
+  padding-bottom: 80px;
+}
+.ourfees-div {
+  border-radius: 4px;
+  background-image: linear-gradient(204deg, #3b85ef, #1b4ddb);
+  padding: 40px 20px;
+  color: #fff;
+  margin-top: 30px;
+  position: relative;
+}
+.initial-fee {
+  font-size: 16.8px;
+  font-weight: 500;
+}
+.ourfees-div h1 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 48px;
+  font-weight: bold;
+}
+.contributes {
+  width: 65%;
+  font-size: 14px;
+  line-height: 1.65;
+  letter-spacing: normal;
+}
+.circle {
+  height: 100px;
+  width: 100px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 46.28%;
+  margin-top: 120px;
+}
+.yielders {
+  width: 40%;
+  margin: auto;
+  line-height: 1.65;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.question h5 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.26;
+  letter-spacing: normal;
+  color: #2aaa41;
+  margin-top: 0;
+}
+.question p {
+  width: 78%;
+  font-size: 12px;
+  line-height: 1.42;
+  letter-spacing: normal;
+  color: #484f5f;
+}
+.question i {
+  color: #484f5f;
+}
+
+footer{
+	background-color: #1f2532;
+	padding: 80px 0 40px 0;
+	color: #fff;
+}
+#crowd-funding {
+  width: 74%;
+  line-height: 25px;
+  opacity: 0.6;
+  font-size: 11px;
+  line-height: 1.73;
+  letter-spacing: normal;
+}
+footer h5 {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.08;
+  letter-spacing: normal;
+  margin-top: 15px; 
+}
+.footerlinks p {
+  margin-bottom: 0;
+}
+.white{
+  opacity: 0.6;
+  font-size: 12px;
+  line-height: 2.33;
+  letter-spacing: normal;
+  color: #fff;
+}
+.white:hover{
+	color: #fff;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mt-18 {
+  margin-top: 18px;
+}

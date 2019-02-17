@@ -1,0 +1,68 @@
+@media screen and (max-width: 768px){
+	.efficient {
+	    width: auto;
+	    height: auto;
+	    font-size: 30px;
+	    font-weight: bold;
+	    /* line-height: 1.31; */
+	    /* letter-spacing: 1px; */
+	    text-align: left;
+	    color: #ffffff;
+	    margin-bottom: 40px;
+	}
+	.navbar-inverse .navbar-toggle {
+    	border-color: #161930;
+    	margin-top: 20px;
+	}
+	.container>.navbar-collapse, .container-fluid>.navbar-collapse {
+    	margin-right: -17px!important;
+    	margin-left: -17px!important;
+	}
+	.navbar-inverse .navbar-collapse{
+		background: #323054!important;
+	}
+	#every {
+    	width: auto;
+    	height: 90px;
+    	padding: 10px;
+	}
+	.box, .box-two{
+		margin-top: 10px;
+	}
+	.amount{
+		margin-bottom: 30px;
+	}
+	#newsletter-form,
+	#waitinglist-email, #price {
+    	width: 100%;
+	}
+	.add-me{
+		margin-left: 0;
+	}
+	#mtn {
+    	margin-right: 0;
+	}
+	#faq, #footericons, .sponsor, #pricing-div, .monitor {
+		margin-bottom: 20px;
+	}
+
+}
+@media screen and (max-width: 335px){
+	.box-two {
+    	width: auto;
+	}
+	#fingerprint {
+    	width: auto;
+    }
+    #reason{
+    	padding: 10px;
+    }
+}
+@media screen and (max-width: 1000px){
+	.box-two {
+    	width: 235px;
+	}
+	#fingerprint {
+    	width: auto;
+	}
+}
