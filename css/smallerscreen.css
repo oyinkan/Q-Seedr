@@ -1,15 +1,4 @@
 @media screen and (max-width: 768px){
-	.efficient {
-	    width: auto;
-	    height: auto;
-	    font-size: 30px;
-	    font-weight: bold;
-	    /* line-height: 1.31; */
-	    /* letter-spacing: 1px; */
-	    text-align: left;
-	    color: #ffffff;
-	    margin-bottom: 40px;
-	}
 	.navbar-inverse .navbar-toggle {
     	border-color: #161930;
     	margin-top: 20px;
@@ -21,48 +10,57 @@
 	.navbar-inverse .navbar-collapse{
 		background: #323054!important;
 	}
-	#every {
-    	width: auto;
-    	height: 90px;
-    	padding: 10px;
-	}
-	.box, .box-two{
+	.box {
 		margin-top: 10px;
 	}
-	.amount{
-		margin-bottom: 30px;
+	.enabling,
+	.investment,
+	.utilize,
+	.utilize.love,
+	.question,
+	.yielders {
+    	width: auto;
+    	margin: 10px;
 	}
-	#newsletter-form,
-	#waitinglist-email, #price {
-    	width: 100%;
-	}
-	.add-me{
+	#subscribe {
 		margin-left: 0;
 	}
-	#mtn {
-    	margin-right: 0;
+	.tomato-div {
+		margin-bottom: 10px;
 	}
-	#faq, #footericons, .sponsor, #pricing-div, .monitor {
-		margin-bottom: 20px;
+	.circle {
+		display: none;
 	}
 
 }
-@media screen and (max-width: 335px){
-	.box-two {
-    	width: auto;
-	}
-	#fingerprint {
+@media screen and (min-width: 770px) and (max-width: 950px) {
+	.tomato-div {
     	width: auto;
     }
-    #reason{
-    	padding: 10px;
+    #manage {
+    	margin-bottom: 32px;
+    }
+    .circle {
+    	left: 43.86%;
+        margin-top: 160px;
     }
 }
-@media screen and (max-width: 1000px){
-	.box-two {
-    	width: 235px;
+@media screen and (min-width: 951px) and (max-width: 990px) {
+	#manage {
+    	margin-bottom: 32px;
+    }
+	.circle {
+    	left: 44.86%;
+        margin-top: 160px;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+	.circle {
+		left: 45.28%;
 	}
-	#fingerprint {
-    	width: auto;
+}
+@media screen and (max-width: 1000px){
+	.navbar {
+		height: auto;
 	}
 }

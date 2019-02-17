@@ -114,7 +114,6 @@ body {
 }
 .utilize {
   width: 42%;
-  height: 90px;
   margin: 0 auto;
   margin-bottom: 40px;
   text-align: center;
@@ -225,7 +224,7 @@ body {
 
 .ourfees {
   background-color: #fff;
-  padding: 50px 0;
+  padding: 0;
   padding-bottom: 80px;
 }
 .ourfees-div {
@@ -269,8 +268,13 @@ body {
 .mb-30 {
   margin-bottom: 30px;
 }
+.feedback-div {
+  background: #fff;
+  padding: 20px 40px;
+}
 .question {
   margin-bottom: 20px;
+  width: 78%;
 }
 .question h5 {
   font-size: 16px;
@@ -281,7 +285,6 @@ body {
   margin-top: 0;
 }
 .question p {
-  width: 78%;
   font-size: 12px;
   line-height: 1.42;
   letter-spacing: normal;
