@@ -268,10 +268,6 @@ body {
 .mb-30 {
   margin-bottom: 30px;
 }
-.feedback-div {
-  background: #fff;
-  padding: 20px 40px;
-}
 .question {
   margin-bottom: 20px;
   width: 78%;
@@ -337,7 +333,58 @@ footer h5 {
   float: left;
   margin-right: 30px;
 }
-.paystack {
+.paystack,
+.feedback-name {
   position: relative;
   top: 7px;
+}
+.feedback-div {
+  background: #fff;
+  padding: 20px 40px;
+  box-shadow: 0 16px 25px 0 #f8f8f8;
+}
+.slick-slide {
+  margin: 10px;
+}
+.slick-next.slick-arrow,
+.slick-next.slick-arrow:hover,
+.slick-next.slick-arrow:active {
+  background: green;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  right: 100px;
+}
+.slick-prev.slick-arrow {
+  display: none!important;
+}
+.slick-item .feedback-div p {
+  font-size: 12px;
+  line-height: 1.55;
+  letter-spacing: normal;
+  color: #101010;
+}
+.slick-item .feedback h5 {
+  font-size: 12px;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  margin-bottom: 5px;
+}
+.slick-item .feedback p {
+  font-size: 8.4px;
+  font-weight: 300;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+.slick-slide img {
+    display: block;
+    float: left;
+    margin-right: 15px;
+}
+.fa.fa-star {
+  color: #2aaa41;
+  font-size: 16px;
+}
+.mt-20 {
+  margin-top: 20px;
 }
