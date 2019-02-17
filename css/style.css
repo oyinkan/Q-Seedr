@@ -333,3 +333,11 @@ footer h5 {
 .mt-18 {
   margin-top: 18px;
 }
+.footer-img {
+  float: left;
+  margin-right: 30px;
+}
+.paystack {
+  position: relative;
+  top: 7px;
+}
