@@ -111,7 +111,6 @@ body {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.2px;
-  text-align: center;
   color: #20294e;
 }
 .utilize {
@@ -389,4 +388,83 @@ footer h5 {
 }
 .mt-20 {
   margin-top: 20px;
+}
+
+
+/* cattles page */
+.details-div {
+  width: 490px;
+  height: 200px;
+  margin: auto;
+  padding: 20px 40px;
+  border-radius: 4px;
+  box-shadow: 0 10px 40px 0 rgba(70, 76, 105, 0.07);
+  background-color: #ffffff;
+}
+.details-div h6 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #3d3f4f;
+}
+.details-div p, .opportunity {
+  opacity: 0.7;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #484f5f;
+  margin-top: 20px;
+}
+.details-div span {
+  color: #267bfa;
+}
+.details-div h5 {
+  font-size: 72px;
+  font-weight: normal;
+  letter-spacing: -3.2px;
+  color: #cfd4db;
+  margin-top: 0;
+}
+.current {
+  width: 37%;
+  margin: auto;
+  margin-top: 80px;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: -0.9px;
+  text-align: center;
+  color: #020202;
+}
+.cattle-background {
+  background: white;
+  margin-left: -70px;
+  margin-right: -30px;
+}
+.cattle-div {
+  width: 40%;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 107px;
+}
+.cattle-text {
+  opacity: 0.05;
+  font-size: 140px;
+  font-weight: 500;
+  color: #20294e;
+}
+.cattle-image {
+  position: absolute;
+  bottom: 70%;
+  margin-left: 10px;
+}
+.the-cattle{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.55;
+  color: #20294e;
+}
+
+.cattle-div span {
+  color: #2aaa41;
+}
+.opportunity {
+  opacity: 1;
 }
