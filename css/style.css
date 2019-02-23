@@ -393,7 +393,8 @@ footer h5 {
 
 /* cattles page */
 .details-div {
-  width: 490px;
+  /* width: 490px;*/
+  width: 76%;
   height: 200px;
   margin: auto;
   padding: 20px 40px;

@@ -18,7 +18,8 @@
 	.utilize,
 	.utilize.love,
 	.question,
-	.yielders {
+	.yielders,
+	.current {
     	width: auto;
     	margin: 10px;
 	}
@@ -31,7 +32,14 @@
 	.circle {
 		display: none;
 	}
-
+	.details-div {
+		height: auto;
+		margin-bottom: 10px;
+		margin-top: 20px;
+	}
+	.cattle-div {
+    	width: 95%;
+	}
 }
 @media screen and (min-width: 770px) and (max-width: 950px) {
 	.tomato-div {
@@ -62,5 +70,13 @@
 @media screen and (max-width: 1000px){
 	.navbar {
 		height: auto;
+	}
+}
+@media screen and (max-width: 400px) {
+	.cattle-background {
+	    margin-right: -70px;
+	}
+	.cattle-text {
+	    font-size: 115px;
 	}
 }

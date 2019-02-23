@@ -43,11 +43,22 @@
             font-size: 28px;
             font-weight: 500;
         }
-        .container-fluid {
+        .container-fluid.cattlediv {
             padding-left: 75px;
             padding-right: 75px;
             padding-bottom: 70px;
         }
+        @media screen and (max-width: 768px) {
+            .enabling,
+            .investment,
+            .utilize,
+            .utilize.love,
+            .question,
+            .yielders {
+                width: auto;
+                margin: 10px;
+            }
+        } 
     </style>
 
 </head>
@@ -101,7 +112,7 @@
         </div>
     </div>
     <div style="background: #f8fafb;">
-        <div class="container-fluid">
+        <div class="container-fluid cattlediv">
             <div class="row">
                 <div class="col-md-9 col-sm-9">
                     <div class="cattle-background">
