@@ -346,6 +346,7 @@ footer h5 {
 }
 .feedback-div img {
   height: 50px;
+  border-radius: 50%;
 }
 .slick-slide {
   margin: 10px;
