@@ -56,9 +56,10 @@ body {
 	height: 75px;
 }
 #efficient {
-  background: url(../images/background.png) center rgba(44, 48, 48, 1);
+  background: url(../images/background.png) center;
   background-size: cover;
-    /*opacity: 0.23;*/
+  background-repeat: no-repeat;
+  /*rgba(44, 48, 48, 1)*/
 }
 .enabling {
   width: 40%;
@@ -79,30 +80,35 @@ body {
   letter-spacing: -0.7px;
 }
 #email-newsletter {
-    width: 235px;
-    height: 40px;
-    border: 0;
-    font-size: 12px;
+  width: 235px;
+  height: 40px;
+  border: 0;
+  font-size: 12px;
   border-radius: 2.2px;
   box-shadow: 0 0 5px 0 rgba(177, 177, 177, 0.5);
   background-color: rgba(255, 255, 255, 0.2);
   color: #fff;
 }
 #subscribe {
-    width: 104px;
-    height: 40px;
-    border: 0;
-    font-size: 12px;
-    margin-left: -5px;
-    margin-top: 1px;
-    color: #fff;
-    border-radius: 2.9px;
+  width: 104px;
+  height: 40px;
+  border: 0;
+  font-size: 12px;
+  margin-left: -5px;
+  margin-top: 1px;
+  color: #fff;
+  border-radius: 2.9px;
   box-shadow: 0 1px 5px 0 #254e2d;
   background-color: #2aaa41;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 .about{
   background-color: #f8fafb;
   padding: 40px 0;
+}
+.dropdown-menu>li>a {
+  font-size: 12px;
 }
 .passion,
 .investment-shop p {
